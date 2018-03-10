@@ -1,7 +1,7 @@
 ---
 - name: Deploy drone ci server
   hosts: drone
-  become_user: root
+  become_user: dt-drone-admin
   become: true
   vars_files:
     - "vars/credentials.yml"

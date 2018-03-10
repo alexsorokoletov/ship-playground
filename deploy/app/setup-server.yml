@@ -2,7 +2,7 @@
 - name: Setup server
   hosts: app
   become: true
-  become_user: root
+  become_user: dt-ship-playground
   gather_facts: False
   vars_files:
     - ["vars/main.yml"]
