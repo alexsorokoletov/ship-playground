@@ -9,5 +9,5 @@ api_ports: [ 6000 ]
 web_domain: "ship-app.paralect.com"
 web_ports: [ 6100 ]
 
-landing_domain: "ship-demo.paralect.com"
+landing_domain: "dt-ship-test.eastus.cloudapp.azure.com"
 landing_ports: [ 6200 ]

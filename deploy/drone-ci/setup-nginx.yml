@@ -2,7 +2,7 @@
 - name: Setup nginx for drone
   hosts: nginx
   become: true
-  become_user: dt-drone-admin
+  become_method: sudo
   gather_facts: False
   vars_prompt:
     - name: run_roles

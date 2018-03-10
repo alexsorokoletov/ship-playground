@@ -2,7 +2,7 @@
 - name: Setup nginx for the application
   hosts: app
   become: true
-  become_user: dt-ship-playground
+  become_method: sudo
   gather_facts: False
   vars_files:
     - "vars/main.yml"

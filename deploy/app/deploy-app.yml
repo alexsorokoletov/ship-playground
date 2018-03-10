@@ -1,7 +1,7 @@
 ---
 -   name: Deploy application using docker
     hosts: app
-    remote_user: dt-ship-playground
+    become_method: sudo # this might not needed to run docker containers
     become: true
     vars_files:
       - ["vars/credentials.yml"]
