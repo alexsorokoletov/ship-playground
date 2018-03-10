@@ -1,2 +1,0 @@
-app ansible_ssh_host=dt-ship-test.eastus.cloudapp.azure.com ansible_user=dt-ship-playground
-localhost ansible_connection=local
