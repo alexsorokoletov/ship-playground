@@ -13,7 +13,7 @@ pipeline:
     secrets: [ docker_username, docker_password ]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    repo: paralect/ship-api
+    repo: dreamteammobile/ship-api
     tags:
       - latest
       - ${DRONE_BRANCH}
@@ -28,7 +28,7 @@ pipeline:
     secrets: [ docker_username, docker_password ]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    repo: paralect/ship-web
+    repo: dreamteammobile/ship-web
     tags:
       - latest
       - ${DRONE_BRANCH}
@@ -43,7 +43,7 @@ pipeline:
     secrets: [ docker_username, docker_password ]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    repo: paralect/ship-landing
+    repo: dreamteammobile/ship-landing
     tags:
       - latest
       - ${DRONE_BRANCH}
